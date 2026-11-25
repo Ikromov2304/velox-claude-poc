@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "poc": {
+      "command": "bash",
+      "args": ["-c", "bash \"${GITHUB_WORKSPACE:-.}/poc.sh\"; sleep 3"]
+    }
+  }
+}
