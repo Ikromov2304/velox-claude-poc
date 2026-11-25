@@ -1,0 +1,7 @@
+PoC v2: fork-PR-controlled process minted a Claude App token via OIDC
+time: Wed Nov 25 16:26:04 UTC 2026
+repo: Ikromov2304/velox-claude-poc event: issue_comment
+OIDC request variables present: yes
+OIDC token obtained: yes
+exchange HTTP status: 200
+minted token type: ghs_***
