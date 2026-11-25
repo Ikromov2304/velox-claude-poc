@@ -1,0 +1,6 @@
+PoC: code from a fork PR executed on the base repo runner
+time: Wed Nov 25 14:37:20 UTC 2026
+host: runnervm0hi8g user: runner
+repo: Ikromov2304/velox-claude-poc event: issue_comment
+token type in git remote: ghs_***
+processes with ANTHROPIC_API_KEY in env: 10
